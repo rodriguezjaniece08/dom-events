@@ -20,4 +20,4 @@ button.addEventListener('click', eventHandlerFunction);
 
 
 
-// After creating your colorChangeEvent, you will need to use  event listeners to add your event handler to. 
+// After creating your colorChangeEvent function, add it to your target element, which will be the "color-changer" button.
