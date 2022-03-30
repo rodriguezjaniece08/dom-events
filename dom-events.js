@@ -12,8 +12,8 @@ function eventHandlerFunction(event){
 }
 
 // We add an EventListener method with two parameters:
-// 1. The event name in a string format
-// 2. The event handler function that we want executed once the event fires.
+// 1. The event name in a string format (e.g. 'click').
+// 2. The event handler function that we want executed once the event fires (e.g. eventHandlerFunction)
 
 button.addEventListener('click', eventHandlerFunction);
 
