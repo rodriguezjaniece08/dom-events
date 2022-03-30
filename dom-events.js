@@ -8,6 +8,7 @@ function eventHandlerFunction(event){
 
 // The event target references the object that we dispatch our event onto.
     event.target.innerHTML = 'Added to cart!';
+    console.log(event.timeStamp);
 }
 
 // We add an EventListener method with two parameters:
