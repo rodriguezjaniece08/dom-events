@@ -16,6 +16,11 @@ function eventHandlerFunction(event){
 
 button.addEventListener('click', eventHandlerFunction);
 
+
+
+// Don't touch anything above here._________________________________________________________________
+
+
 // Create a function called colorChangeEvent that uses the "event.target" property to do something interesting to the second button when it is clicked. The button's id is "color-changer".
 
 
