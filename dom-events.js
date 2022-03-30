@@ -23,9 +23,9 @@ button.addEventListener('click', eventHandlerFunction);
 // Don't touch anything above here._________________________________________________________________
 
 
-// Create a function called colorChangeEvent that uses the "event.target" property to change the styling of the second button when it is clicked. Give it a border-radius. Color the background blue. Make the text white. The second button can be found in index.html. It has an id of "secondButton".
+// Create a function called colorChangeEvent that uses the event's target property to change the styling of the second button when it is clicked. Give it a border-radius. Color the background blue. Make the text white. The second button can be found in index.html. It has an id of "secondButton".
 
 
 
-// After creating your colorChangeEvent function, add it to your target element, which will be the "color-changer" button.
+// After creating your colorChangeEvent function, add an event listener to your target element, which will be the "color-changer" button.
 
