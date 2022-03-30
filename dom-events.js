@@ -1,7 +1,7 @@
 // We use the getElementById method to grab items from the document
 
 const button = document.getElementById('button');
-const secondButton = document.getElementById('color-changer');
+
 
 // We then define our event handler function
 
@@ -23,7 +23,7 @@ button.addEventListener('click', eventHandlerFunction);
 // Don't touch anything above here._________________________________________________________________
 
 
-// Create a function called colorChangeEvent that uses the "event.target" property to change the styling of secondButton when it is clicked. Give it a border-radius. Color the background blue. Make the text white.
+// Create a function called colorChangeEvent that uses the "event.target" property to change the styling of the second button when it is clicked. Give it a border-radius. Color the background blue. Make the text white. The second button can be found in index.html. It has an id of "secondButton".
 
 
 
